@@ -45,9 +45,14 @@ a{
     padding: 5px 15px;
 }
 
+
+img{
+    width: 100%;
+}
+
 /* header */
 header{
-    height: 700px;
+    height: 800px;
     background-color: #B4D0E7;
 }
 
@@ -88,6 +93,38 @@ nav ul li{
 /* secondo header */
 
 h1{
-    padding-top: 80px;
+    padding: 65px 0;
     font-size: 80px;
+}
+
+
+.box-jumbotron{
+    height: 500px;
+}
+
+.jumbotron-left{
+    float: left;
+    height: 350px;
+    padding-right: 110px;
+}
+
+
+.jumbotron-right{
+    float: left;
+    height: 500px;
+}
+
+.jumbotron-left p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.free-try p{
+    padding: 15px 0;
+    font-size: 15px;
+}
+
+.fa-arrow-down {
+    font-size: 40px;
 }
