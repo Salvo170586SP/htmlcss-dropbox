@@ -16,7 +16,10 @@ font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
 }
 
-
+.container-main{
+    width: 1200px;
+    margin: 0 auto;
+}
 
 .clearfix::after{
     display: table;
@@ -37,6 +40,11 @@ a{
     color: black;
     font-size: 18px;
     font-weight: 500;
+}
+
+h2{
+    font-size: 40px;
+    padding: 40px 0;
 }
 
 .button{
@@ -127,4 +135,41 @@ h1{
 
 .fa-arrow-down {
     font-size: 40px;
+}
+
+.select-pay{
+    height: 50px;
+}
+
+.select-pay p{
+    display: inline-block;
+    font-weight: 50px;
+    vertical-align: middle;
+
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cbx-blue{
+    border: 5px solid blue;
+
+}
+
+.cbx-green{
+    border: 1px solid green;
+
+}
+
+.check-month{
+    display: inline-block;
+    margin-right: 20px;
+}
+.check-years{
+    display: inline-block;
 }
