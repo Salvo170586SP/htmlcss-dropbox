@@ -173,3 +173,28 @@ h1{
 .check-years{
     display: inline-block;
 }
+
+/* piani del prodotto */
+
+.col-price{
+    margin: 0 -30px;
+}
+
+.col-33{
+    width: calc(100% / 3 - 60px);
+    height: 200px;
+    margin: 0 30px;
+    border: 2px solid grey;
+    float: left;
+}
+
+.col-title{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid grey;
+}
+
+.col-professional{
+    padding: 30px 25px;
+    
+}
