@@ -429,3 +429,25 @@ article {
   color: black;
   padding: 10px 35px;
 }
+
+
+/*  sezione domande frequenti */
+
+#question{
+  padding: 100px;
+}
+
+.box-question h2{
+  border-bottom: 1px solid grey ;
+
+}
+
+.row-question{
+  height: 90px;
+  line-height: 90px;
+  border-bottom: 1px solid grey ;
+}
+
+.box-question-arrowdown{
+  font-size: 25px;
+}
