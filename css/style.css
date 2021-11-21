@@ -72,10 +72,20 @@ h3 {
   padding: 10px 45px;
 }
 
-.hd-botton {
+.button:hover{
+  background-color: blueviolet;
+}
+
+
+.hd-button {
   background-color: #0061ff;
   color: white;
   padding: 10px 30px;
+  cursor: pointer;
+}
+
+.hd-button:hover{
+  background-color: blueviolet;
 }
 
 img {
@@ -237,8 +247,10 @@ article {
 
 .plan-card-top ul {
   list-style-type: none;
+
   line-height: 50px;
 }
+
 
 .box-bottom {
   padding: 40px 0;
@@ -303,6 +315,11 @@ article {
   padding: 10px 20px;
 }
 
+.button-transparent:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
 /* sezione funzioni app */
 
 #function {
@@ -353,6 +370,7 @@ article {
   height: 50%;
   float: left;
   position: relative;
+  cursor: pointer;
 }
 
 .box-img-logo {
@@ -368,17 +386,38 @@ article {
   background-color: #a2d39b;
 }
 
+.green:hover{
+  border: 15px solid #D0E9CD;
+  transition: 1s;
+}
+
 .brown {
   background-color: #61082b;
+}
+
+.brown:hover{
+  border: 15px solid #D0E9CD;
+  transition: 1s;
 }
 
 .violet {
   background-color: #0093ce;
 }
 
+.violet:hover{
+  border: 15px solid #D0E9CD;
+  transition: 1s;
+}
+
 .red {
   background-color: #ff1c1c;
 }
+
+.red:hover{
+  border: 15px solid #D0E9CD;
+  transition: 1s;
+}
+
 
 .box-center {
   background-color: #f5f5f5;
@@ -427,6 +466,11 @@ article {
   background-color: white;
   color: black;
   padding: 10px 35px;
+}
+
+.button-white:hover{
+  background-color: blueviolet;
+  color: white;
 }
 
 /*  sezione domande frequenti */
