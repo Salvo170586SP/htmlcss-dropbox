@@ -11,7 +11,7 @@ body {
 
 /* utility */
 
-.container-hd {
+.container {
   width: 1400px;
   margin: 0 auto;
 }
@@ -330,7 +330,7 @@ article {
   margin-top: 110px;
 }
 
-.box-team-text{
+.box-team-text {
   padding: 50px 0;
 }
 
@@ -401,53 +401,87 @@ article {
 
 /* sezione prova gratuita */
 
-#free-try{
-  background-color: #B4D0E7;
+#free-try {
+  background-color: #b4d0e7;
 }
 
-.box-free-try{
+.box-free-try {
   height: 300px;
-  color: #61082B;
+  color: #61082b;
   padding: 100px 0;
 }
 
-.box-free-try h2{
+.box-free-try h2 {
   padding: 0;
 }
 
-.w-75{
+.w-75 {
   width: 75%;
 }
 
-.w-25{
+.w-25 {
   width: 25%;
 }
 
-
-.button-white{
+.button-white {
   background-color: white;
   color: black;
   padding: 10px 35px;
 }
 
-
 /*  sezione domande frequenti */
 
-#question{
+#question {
   padding: 100px;
 }
 
-.box-question h2{
-  border-bottom: 1px solid grey ;
-
+.box-question h2 {
+  border-bottom: 1px solid grey;
 }
 
-.row-question{
+.row-question {
   height: 90px;
   line-height: 90px;
-  border-bottom: 1px solid grey ;
+  border-bottom: 1px solid grey;
 }
 
-.box-question-arrowdown{
+.box-question-arrowdown {
   font-size: 25px;
+}
+
+/* footer principale */
+footer {
+  background-color: #000000;
+  color: white;
+  height: 500px;
+}
+
+/* footer top */
+.footer-top {
+  height: 370px;
+  padding: 70px 0;
+}
+
+.col-20 {
+  width: calc(100% / 5);
+}
+
+.footer-top h3 {
+  padding: 10px 0;
+}
+
+.footer-top ul {
+  line-height: 30px;
+}
+
+.footer-top li {
+  display: block;
+}
+
+/* footer bottom */
+
+.line-lenguage {
+  width: 150px;
+  padding-top: 50px;
+  border-top: 1px solid white;
 }
