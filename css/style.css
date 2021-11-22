@@ -145,7 +145,7 @@ header {
 .header-top {
   width: 100%;
   background-color: white;
-  padding: 20px;
+  padding: 0 20px;
   box-shadow: 0px 3px 8px 1px rgba(0,0,0,0.20);  
   position: fixed;
   top: 0;
@@ -176,6 +176,16 @@ nav ul li {
   display: inline-block;
   vertical-align: middle;
 }
+
+
+.header-top nav ul li a{
+  padding: 20px 0;
+  display: inline-block;
+}
+
+.header-top nav ul li a:hover{
+  box-shadow: inset 0px -5px 0px 0px #91718D;}
+
 
 /************ SECONDO HEADER *************/
 
@@ -481,12 +491,6 @@ article {
 .w-25 {
   width: 25%;
 }
-
-
-
-
-
-
 
 /*********  SEZIONE DOMANDE FREQUENTI ************/
 
