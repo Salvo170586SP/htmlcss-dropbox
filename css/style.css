@@ -162,7 +162,7 @@ nav {
 
 nav ul li {
   display: inline-block;
-  margin: 0 25px;
+  padding: 0 25px;
 }
 
 .nav-right {
@@ -185,11 +185,12 @@ nav ul li {
   box-shadow: inset 0px -5px 0px 0px #91718d;
 }
 
+
+
 /* menu a tendina */
 
 #down-menu {
   width: 260px;
-  height: 100px;
   display: none;
   background-color: white;
   text-align: left;
@@ -203,7 +204,10 @@ nav ul li {
   display: block;
 }
 
-
+#down-menu li:hover{
+  background-color: lightgrey;
+  display: block;
+}
 
 
 /************ SECONDO HEADER *************/
