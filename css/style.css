@@ -533,7 +533,7 @@ article {
 
 /*********  SEZIONE DOMANDE FREQUENTI ************/
 
-#question {
+#questions {
   padding: 100px;
 }
 
@@ -542,14 +542,27 @@ article {
 }
 
 .row-question {
-  height: 90px;
   line-height: 90px;
   border-bottom: 1px solid grey;
+  cursor: pointer;
 }
 
 .box-question-arrowdown {
   font-size: 25px;
 }
+
+/* hover sulla domanda */
+
+ #reply{
+  display: none;
+}
+
+
+.row-question:hover #reply {
+  display: block;
+  height: 150px;
+}
+
 
 /**************** FOOTER *****************/
 footer {
