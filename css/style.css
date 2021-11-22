@@ -409,7 +409,7 @@ article {
 }
 
 .green:hover{
-  border: 15px solid #D0E9CD;
+  box-shadow: inset 1px 0px 3px 20px #D0E9CD;
   transition: 1s;
 }
 
@@ -418,7 +418,7 @@ article {
 }
 
 .brown:hover{
-  border: 15px solid #D0E9CD;
+  box-shadow: inset 1px 0px 3px 20px #D0E9CD;
   transition: 1s;
 }
 
@@ -427,7 +427,7 @@ article {
 }
 
 .violet:hover{
-  border: 15px solid #D0E9CD;
+  box-shadow: inset 1px 0px 3px 20px #D0E9CD;
   transition: 1s;
 }
 
@@ -436,7 +436,7 @@ article {
 }
 
 .red:hover{
-  border: 15px solid #D0E9CD;
+  box-shadow: inset 1px 0px 3px 20px #D0E9CD;
   transition: 1s;
 }
 
